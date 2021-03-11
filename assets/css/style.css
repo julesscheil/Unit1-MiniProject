@@ -1,24 +1,29 @@
+/* Universal Selector */
 * {
   font-family: 'Courier New', Courier, monospace;
 }
-header { /* fix position*/
+/* Element Selectors */
+body {
+  position: relative;
+  margin: 0;
+}
+main {
+  padding: 100px 0;
+}
+header { 
   position: fixed;
   top: 0;
   width: 100%;
   background-color: #846C5B;
   text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  padding: 0 10px 0 10px;
 }
 nav {
-  display:inline;
-  text-align: right;
-}
-.section1 {
-position:relative;
-display: block;
-}
-#section2 {
-  text-align: center;
-  display:block;
+position: fixed;
+right: 0;
+margin: 0;
 }
 footer {
   position: fixed;
@@ -26,4 +31,22 @@ footer {
   width: 100%;
   background-color: #C4B2BC;
   text-align: center;
+  color: white;
+}
+/* Class Selectors */
+.section1 {
+display: block;
+text-align: center;
+color: #846C5B;
+padding: 10px;
+}
+/* ID Selectors */
+h3 {
+  text-align: center;
+}
+input {
+  text-align: center;
+  display:block;
+  margin: 0 auto;
+  width: 300px;
 }
