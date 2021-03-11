@@ -1,0 +1,29 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+header { /* fix position*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #846C5B;
+  text-align: center;
+}
+nav {
+  display:inline;
+  text-align: right;
+}
+.section1 {
+position:relative;
+display: block;
+}
+.section2 {
+  text-align: center;
+  display:block;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #C4B2BC;
+  text-align: center;
+}
