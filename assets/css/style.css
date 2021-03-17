@@ -40,6 +40,9 @@ text-align: center;
 color: #846C5B;
 padding: 10px;
 }
+.section1 img {
+  border: 3px solid #846C5B;
+}
 /* ID Selectors */
 h3 {
   text-align: center;
